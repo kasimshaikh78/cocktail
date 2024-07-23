@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="task2.css"></link>
+    </head>
+    <body>
+        <header>
+            <nav>
+              <h1> Cocktail Search</h1>
+                <form>
+                    <input type="text" placeholder="Enter Letter" class="searchbox" maxlength="1"></input>
+                    <button type="button" class="searchbtn">Search</button>
+                    <button type="button" id="saves-favorite">Favorites</button>
+                    </form>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <div class="Fetch_data">
+                        <!--<h2> Search Cocktail Data</h2>-->
+                    </div>
+                    </section>
+                </main>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2 id="modal-name"></h2>
+                        <img id="modal-image" src="" alt="CocktailImage">
+                        <h3>Ingredients:</h3>
+                        <ul id="modal-ingredients"></ul>
+                        <h3>Instructions:</h3>
+                        <p id="modal-instructions"></p>
+                        <button id="save-favorite">Save to Favorites</button>
+                    </div>
+                </div>
+                <div class="res">
+                <div class="result">
+                </div>
+                </div>
+                
+            <script src="task2.js"></script>
+    </body>
+</html>
